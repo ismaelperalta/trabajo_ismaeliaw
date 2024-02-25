@@ -1,0 +1,202 @@
+header {
+    background-image: linear-gradient(red, yellow);
+    overflow: hidden;
+  }
+  
+  header img {
+    float: auto;
+    width: 100px;
+    height: auto;
+  }
+  
+  header nav {
+    float: left;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    padding: 0;
+    width: auto;
+  }
+  
+  header nav ul li {
+    float: right;
+    width: auto;
+  }
+  
+  header nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+-----------------------------------
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; /* Alinear verticalmente los elementos */
+}
+
+.carousel {
+  position: relative;
+  max-width: 600px;
+}
+
+.carousel-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.carousel img {
+  width: 100%;
+  display: none;
+}
+
+button {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 2;
+}
+
+#prevBtn {
+  left: 0;
+}
+
+#nextBtn {
+  right: 0;
+}
+
+.container > img {
+  width: 30%; /* Ajusta el ancho según sea necesario */
+  margin-left: 20px; /* Agrega margen izquierdo para separarla del carrusel */
+}
+
+
+
+.contenedor-principal {
+  display: flex;
+  flex-direction: column; /* Organiza los elementos en columnas */
+  align-items: center;
+}
+
+.contenedor-contenido {
+  width: 50%; /* Ajusta el ancho del contenedor según tus necesidades */
+  text-align: center; /* Centra el texto dentro del contenedor */
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+}
+.contenedor-contenido2 {
+  display: flex;
+  align-items: flex-start;
+  width: 100%; /* Ajusta el ancho del contenedor según tus necesidades */
+ /* Centra el texto dentro del contenedor */
+
+}
+
+.imagen-derecha {
+  width: 30%; /* Ajusta el ancho de la imagen según tus necesidades */
+  margin-top: 30px; /* Ajusta el margen superior según tus necesidades */
+}
+
+.imagen-derecha img,
+.texto-enlace img {
+  width: 100%; /* Asegura que las imágenes ocupen todo el ancho disponible */
+  height: auto; /* Ajusta la altura de las imágenes para mantener las proporciones */
+}
+
+.texto-enlace {
+  width: 65%; /* Ajusta el ancho del texto según tus necesidades */
+  margin-top: 30px; /* Ajusta el margen superior según tus necesidades */
+}
+.espacios-imagen {
+  width: 10%; /* Ajusta el ancho del texto según tus necesidades */
+  margin-top: 10px; /* Ajusta el margen superior según tus necesidades */
+}
+
+.texto-enlace a {
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  color: #000; /* Establece el color del texto */
+}
+
+.contenido {
+  flex: 1;
+}
+
+.imagenes {
+
+  display: flex;
+  flex-direction: column; /* Centra las imágenes verticalmente */
+  float: right;
+  align-items: end;
+}
+
+.imagenes img {
+  width: 200px; /* Ajusta el ancho de las imágenes */
+  margin-bottom: 10px; /* Ajusta el espacio entre cada imagen */
+}
+
+
+-------------------------------------------
+  .pie-de-pagina img {
+    width: 50%;
+    max-width: 50px; /* Ajusta el ancho máximo de la imagen según tus necesidades */
+    height: auto;
+  }
+
+
+  .pie-de-pagina {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #333;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+  }
+  
+  .contenedor-copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .contenedor-copyright p {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .contenedor-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contenedor-logos a {
+    margin: 0 10px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .contenedor-logos img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  
